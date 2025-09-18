@@ -36,6 +36,7 @@ ul {
     background-color: #1F2937;
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 48px;
     padding: 48px;
 }
@@ -44,12 +45,16 @@ ul {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    justify-content: center;
-    gap: 8px;
+    gap: 12px;
 }
 
 button{
     background-color: #3882F6;
+    color: #F9FAF8;
+    border: none;
+    border-radius: 8px;
+    padding: 4px 24px;
+
 }
 
 .hero-title{
@@ -101,7 +106,33 @@ button{
     align-self: flex-end;
 }
 
+.action{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 48px;
+}
+
+.signup {
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 36px;
+    width: 800px;
+}
+
+button.action-button {
+    background-color: #1F2937;
+    border: 5px white;
+}
+
 .footer {
     background-color: #1F2937;
     color: #E5E7EB;
+    font-size: 18px;
+    padding: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
