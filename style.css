@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+body {
+    font-family: Roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+/* header section */
+.header {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.logo {
+    font-size: 24px;
+    font-weight:800px;
+    color: #F9FAF8;
+}
+
+ul {
+    list-style: none;
+    color: #E5E7EB;
+    font-size: 18px;
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+
+/* hero section */
+.hero {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+    padding: 48px;
+}
+
+.hero-left{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 8px;
+}
+
+button{
+    background-color: #3882F6;
+}
+
+.hero-title{
+    font-size: 48px;
+    font-weight:800px;
+    color: #F9FAF8;
+    margin: 0;
+    padding: 0;
+    width: 400px;
+}
+.hero-text{
+    font-size: 18px;
+    color: #c5c8cc;
+    margin: 0;
+    padding: 0;
+    width: 500px;
+
+}
+
+.img-text {
+    padding: 100px 175px;
+    background-color: #c5c8cc;
+    color: #F9FAF8;
+}
+
+
+/* main content section */
+.content {
+
+}
+
+
+ /* quote section */
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+}
+.quote-text {
+    font-size: 36px;
+    font-weight: 300px;
+    max-width: 800px;
+    font-style: italic;
+    padding: 16px;
+}
+.quote-credit {
+    font-size: 24px;
+    font-weight: bolder;
+    align-self: flex-end;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+}
