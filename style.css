@@ -23,13 +23,16 @@ body {
 
 ul {
     list-style: none;
-    color: #E5E7EB;
-    font-size: 18px;
     display: flex;
-    gap: 12px;
+    gap: 24px;
     align-items: center;
 }
 
+a {
+    text-decoration: none;
+    color: #E5E7EB;   
+    font-size: 18px;
+}
 
 /* hero section */
 .hero {
@@ -53,7 +56,8 @@ button{
     color: #F9FAF8;
     border: none;
     border-radius: 8px;
-    padding: 4px 24px;
+    padding: 6px 28px;
+    font-size: 15px;
 
 }
 
@@ -85,13 +89,14 @@ button{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0cm;
+    padding: 50px;
 }
 
 .content h1 {
     color: #1F2937;
     font-size: 36px;
     font-weight: 900;
+    padding-bottom: 20px;
 }
 
 .squares {
@@ -120,20 +125,27 @@ button{
 .quote {
     background-color: #E5E7EB;
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+    padding: 100px;
 }
 .quote-text {
     font-size: 36px;
-    font-weight: 300px;
-    max-width: 800px;
+    color: #454950;
+    width: 800px;
     font-style: italic;
-    padding: 16px;
+    padding: 0;
+    margin: 0;
 }
 .quote-credit {
     font-size: 24px;
     font-weight: bolder;
-    align-self: flex-end;
+    padding: 0 0 0 500px;
+    margin: 0;
 }
+
+/* Action Section */
 
 .action{
     display: flex;
@@ -149,11 +161,17 @@ button{
     align-items: center;
     padding: 36px;
     width: 800px;
+    border-radius: 8px;
+}
+
+.action-text {
+    color: #F9FAF8;
+    font-size: 18px;
 }
 
 button.action-button {
-    background-color: #1F2937;
-    border: 5px white;
+    background-color: #3882F6;
+    border: 3px solid white;
 }
 
 .footer {
