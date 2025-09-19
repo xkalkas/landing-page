@@ -74,16 +74,45 @@ button{
 
 }
 
-.img-text {
-    padding: 100px 175px;
-    background-color: #c5c8cc;
-    color: #F9FAF8;
+.main-img {
+    border-radius: 5px;
+    width: 500px;
 }
 
 
 /* main content section */
 .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0cm;
+}
 
+.content h1 {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.squares {
+    display: flex;
+    gap: 32px;
+    justify-content: center;
+}
+
+.square-img{
+    border-radius: 8px;
+    border: solid #3882F6;
+    height: 150px;
+    width: 150px;
+}
+
+.caption{
+    font-size: 18px;
+    color: #c5c8cc;
+    text-align: center;
+    text-wrap: wrap;
+    width: 150px
 }
 
 
